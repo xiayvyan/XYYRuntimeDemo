@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2B590F1FE9F31200FEE642 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B590E1FE9F31200FEE642 /* Person.m */; };
+		AE2B59121FE9F40C00FEE642 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B59111FE9F40C00FEE642 /* Car.m */; };
+		AE2B59151FE9FD7300FEE642 /* Cat+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B59141FE9FD7300FEE642 /* Cat+Extend.m */; };
 		AE2C1DDB1FE8E7AD00716849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1DDA1FE8E7AD00716849 /* AppDelegate.m */; };
 		AE2C1DDE1FE8E7AD00716849 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1DDD1FE8E7AD00716849 /* ViewController.m */; };
-		AE2C1DE11FE8E7AD00716849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2C1DDF1FE8E7AD00716849 /* Main.storyboard */; };
 		AE2C1DE31FE8E7AD00716849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2C1DE21FE8E7AD00716849 /* Assets.xcassets */; };
 		AE2C1DE61FE8E7AD00716849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2C1DE41FE8E7AD00716849 /* LaunchScreen.storyboard */; };
 		AE2C1DE91FE8E7AD00716849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1DE81FE8E7AD00716849 /* main.m */; };
 		AE2C1DF31FE8E7AD00716849 /* RuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1DF21FE8E7AD00716849 /* RuntimeDemoTests.m */; };
 		AE2C1DFE1FE8E7AD00716849 /* RuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1DFD1FE8E7AD00716849 /* RuntimeDemoUITests.m */; };
+		AE2C1E0D1FE8E8B800716849 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1E0C1FE8E8B800716849 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE2B590D1FE9F31200FEE642 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AE2B590E1FE9F31200FEE642 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AE2B59101FE9F40C00FEE642 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		AE2B59111FE9F40C00FEE642 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		AE2B59131FE9FD7300FEE642 /* Cat+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cat+Extend.h"; sourceTree = "<group>"; };
+		AE2B59141FE9FD7300FEE642 /* Cat+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cat+Extend.m"; sourceTree = "<group>"; };
 		AE2C1DD61FE8E7AD00716849 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C1DD91FE8E7AD00716849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE2C1DDA1FE8E7AD00716849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE2C1DDC1FE8E7AD00716849 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE2C1DDD1FE8E7AD00716849 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE2C1DE01FE8E7AD00716849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE2C1DE21FE8E7AD00716849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2C1DE51FE8E7AD00716849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2C1DE71FE8E7AD00716849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		AE2C1DF91FE8E7AD00716849 /* RuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C1DFD1FE8E7AD00716849 /* RuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoUITests.m; sourceTree = "<group>"; };
 		AE2C1DFF1FE8E7AD00716849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2C1E0B1FE8E8B800716849 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		AE2C1E0C1FE8E8B800716849 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +115,14 @@
 				AE2C1DDA1FE8E7AD00716849 /* AppDelegate.m */,
 				AE2C1DDC1FE8E7AD00716849 /* ViewController.h */,
 				AE2C1DDD1FE8E7AD00716849 /* ViewController.m */,
-				AE2C1DDF1FE8E7AD00716849 /* Main.storyboard */,
+				AE2C1E0B1FE8E8B800716849 /* Cat.h */,
+				AE2C1E0C1FE8E8B800716849 /* Cat.m */,
+				AE2B59131FE9FD7300FEE642 /* Cat+Extend.h */,
+				AE2B59141FE9FD7300FEE642 /* Cat+Extend.m */,
+				AE2B590D1FE9F31200FEE642 /* Person.h */,
+				AE2B590E1FE9F31200FEE642 /* Person.m */,
+				AE2B59101FE9F40C00FEE642 /* Car.h */,
+				AE2B59111FE9F40C00FEE642 /* Car.m */,
 				AE2C1DE21FE8E7AD00716849 /* Assets.xcassets */,
 				AE2C1DE41FE8E7AD00716849 /* LaunchScreen.storyboard */,
 				AE2C1DE71FE8E7AD00716849 /* Info.plist */,
@@ -240,7 +257,6 @@
 			files = (
 				AE2C1DE61FE8E7AD00716849 /* LaunchScreen.storyboard in Resources */,
 				AE2C1DE31FE8E7AD00716849 /* Assets.xcassets in Resources */,
-				AE2C1DE11FE8E7AD00716849 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2B59151FE9FD7300FEE642 /* Cat+Extend.m in Sources */,
+				AE2B59121FE9F40C00FEE642 /* Car.m in Sources */,
+				AE2C1E0D1FE8E8B800716849 /* Cat.m in Sources */,
 				AE2C1DDE1FE8E7AD00716849 /* ViewController.m in Sources */,
+				AE2B590F1FE9F31200FEE642 /* Person.m in Sources */,
 				AE2C1DE91FE8E7AD00716849 /* main.m in Sources */,
 				AE2C1DDB1FE8E7AD00716849 /* AppDelegate.m in Sources */,
 			);
@@ -303,14 +323,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE2C1DDF1FE8E7AD00716849 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE2C1DE01FE8E7AD00716849 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE2C1DE41FE8E7AD00716849 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,9 +443,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PAYVXSWCM;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.RuntimeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,9 +458,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PAYVXSWCM;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.RuntimeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
